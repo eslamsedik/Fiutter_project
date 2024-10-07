@@ -1,0 +1,49 @@
+name: islam
+description: A new Flutter project.
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+
+  cupertino_icons: ^1.0.2
+  animated_custom_dropdown: ^3.1.1
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  generate: true
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/icons/
+     - assets/files/quran/
+     - assets/files/hadith/
+
+  fonts:
+     - family: elmessiri
+       fonts:
+         - asset: assets/fonts/Elmessiri-Bold.ttf
+         - asset: assets/fonts/Elmessiri-Medium.ttf
+         - asset: assets/fonts/Elmessiri-Regular.ttf
+         - asset: assets/fonts/Elmessiri-SemiBold.ttf
